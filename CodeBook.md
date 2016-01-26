@@ -4,14 +4,13 @@ This dataset is a cleaned version of the UCI HAR Dataset. A description of the o
 
 ## Variables of the Tidy Data
 
-The tidy dataset consists of 11880 observations and 4 variables.
+The tidy dataset consists of 11880 observations and 68 variables.
 
 The variables are :
 
 - subjects (numeric) : individuals numbered from 1 to 30
 - activity (categorical) : types of activities (LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS)
-- measurement (categorical) : types of measures (66 different measures, see below)
-- mean (numeric) : the mean associated with the measurement
+- measurement (numeric): mean of measures (66 different variables, see below)
 
 The measurements are :
 
