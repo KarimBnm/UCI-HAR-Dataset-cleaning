@@ -75,8 +75,7 @@ library(tidyr)
 
 tidy_data <- tbl_df(data_set2) %>%
     group_by(subject, activity) %>%
-    summarize_each(funs(mean)) %>%
-    gather(measurement, mean, -activity, -subject)
+    summarize_each(funs(mean))
     
 
 write.table(tidy_data, file="tidy_data.txt", row.name=FALSE)
