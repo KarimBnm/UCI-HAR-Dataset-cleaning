@@ -93,7 +93,8 @@ Several transformation were made :
 - create the Tidy_data using the group_by and summarize functions from the dplyr packages.
  
 You can view the output using the following code and appropriate files in this repo:
-``` Source(run.analysis.R)
+``` 
+Source(run.analysis.R)
 tidy_data <- data.table(tidy_data.txt)
 ```
 
