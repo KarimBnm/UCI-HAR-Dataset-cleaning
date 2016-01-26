@@ -10,7 +10,7 @@ The variables are :
 
 - subjects (numeric) : individuals numbered from 1 to 30
 - activity (categorical) : types of activities (LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS)
-- measurement (numeric): mean of measures (66 different variables, see below)
+- measurement (numeric): mean and std of measures (66 different variables, see below)
 
 The measurements are :
 
