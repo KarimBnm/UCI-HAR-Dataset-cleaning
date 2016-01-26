@@ -81,3 +81,19 @@ The measures are :
 [64] "gravity-acceleration.std...x-time"                
 [65] "gravity-acceleration.std...y-time"                
 [66] "gravity-acceleration.std...z-time" 
+
+## Transformation of the data
+
+Several transformation were made :
+
+- merging of the training set, the test set, the activity and subject variables from the original .txt files (see "data_set")
+- extracting from "data_set" the mean and std variation for each measurement 
+- replace the activity_code by its label
+- rename the measurement variables using the gsub() function ((see "data_set2")
+- create the Tidy_data using the group_by, summarize and gather functions from the dplyr and tidyr packages.
+ 
+You can view the output using the following code and appropriate files in this repo:
+'''R Source(run.analysis.R)
+tidy_data <- data.table(tidy_data.txt)'''
+
+
