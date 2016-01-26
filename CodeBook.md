@@ -90,10 +90,11 @@ Several transformation were made :
 - extracting from "data_set" the mean and std variation for each measurement 
 - replace the activity_code by its label
 - rename the measurement variables using the gsub() function ((see "data_set2")
-- create the Tidy_data using the group_by, summarize and gather functions from the dplyr and tidyr packages.
+- create the Tidy_data using the group_by and summarize functions from the dplyr packages.
  
 You can view the output using the following code and appropriate files in this repo:
 ``` Source(run.analysis.R)
-tidy_data <- data.table(tidy_data.txt)```
+tidy_data <- data.table(tidy_data.txt)
+```
 
 
