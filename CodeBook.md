@@ -95,7 +95,7 @@ Several transformation were made :
 You can view the output using the following code and appropriate files in this repo:
 ``` 
 Source(run.analysis.R)
-tidy_data <- data.table(tidy_data.txt)
+tidy_data <- read.table("tidy_data.txt")
 ```
 
 
