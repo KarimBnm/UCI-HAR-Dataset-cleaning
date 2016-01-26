@@ -13,7 +13,7 @@ The variables are :
 - measurement (categorical) : types of measures (66 different measures, see below)
 - mean (numeric) : the mean associated with the measurement
 
-The measures are :
+The measurements are :
 
  [1] "body-acceleration-jerk-magnitude.mean..-frequency"
  [2] "body-acceleration-jerk-magnitude.mean..-time"     
@@ -93,7 +93,7 @@ Several transformation were made :
 - create the Tidy_data using the group_by, summarize and gather functions from the dplyr and tidyr packages.
  
 You can view the output using the following code and appropriate files in this repo:
-```R Source(run.analysis.R)
+``` Source(run.analysis.R)
 tidy_data <- data.table(tidy_data.txt)```
 
 
