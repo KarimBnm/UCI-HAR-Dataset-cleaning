@@ -1,4 +1,4 @@
-### UCI HAR Dataset Analysis
+### UCI HAR Dataset Cleaning
 
 ## Objectives
 
